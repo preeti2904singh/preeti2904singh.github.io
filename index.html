@@ -6,11 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Preeti Singh | Portfolio</title>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/scrolling-nav.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -18,54 +22,65 @@
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body id="page-top" data-spy="scroll" data-target=".navbar-inverse">
 		<div class="container-fluid">
-			<div class="row">
-				<section class="intro_bg">
+			<section id="home">
+				<div class="row intro_bg">
 					<div class="bg_dark"></div>
 					<div class="col-md-12">
 						<div class="intro_txt">
-							<h1 class="intro_head">HI &nbsp; I &nbsp; AM &nbsp; PREETI &nbsp; SINGH</h1>
-							<h4 class="intro_subhead">WEBDESIGNER AND WEBDEVELOPER</h4>
+							<h1 class="intro_head"><div id="demo-1"></div></h1>
+							<h4 class="intro_subhead"><div id="demo-2"></div></h4>
+							<h4 class="intro_subheada"></h4>
 						</div>
+						<a class="page-scroll" href="#about">
+							<div class="animate_icon wow zoomIn" data-wow-delay="1s">
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+							<span></span>
+						</div></a>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 			<div class="row">
-				<section id="about">
-					<div class="col-md-2">
-						<nav class="navbar nav-stacked sidebar_tab navbar-inverse" role="navigation">
-							<div class="container-fluid">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<!-- <a class="navbar-brand" href="#">Title</a> -->
-								</div>
-						
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse navbar-ex1-collapse">
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="#about">About</a></li>
-										<li><a href="#resume">Resume</a></li>
-										<li><a href="#">Portfolio</a></li>
-										<li><a href="#">Skills</a></li>
-										<li><a href="#">Contact</a></li>
-									</ul>
-								</div><!-- /.navbar-collapse -->
+				<div class="col-md-2">
+					<nav class="navbar nav-stacked sidebar_tab navbar-inverse" role="navigation">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header page-scroll">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<!-- <a class="navbar-brand" href="#">Title</a> -->
 							</div>
-						</nav>
-					</div>
-					<div class="col-md-10">
+					
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse navbar-ex1-collapse">
+								<ul class="nav navbar-nav">
+									<li class="active"><a class="page-scroll" href="#home">Home</a></li>
+									<li><a class="page-scroll" href="#about">About</a></li>
+									<li><a class="page-scroll" href="#resume">Resume</a></li>
+									<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+									<li><a class="page-scroll" href="#skills">Skills</a></li>
+									<li><a class="page-scroll" href="#contact">Contact</a></li>
+								</ul>
+
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-10">
+					<section id="about">
 						<div class="row sidebar_bg">
-							<h1 class="about_head">ABOUT</h1>
-							<h4 class="about_subhead">A SMALL INTRODUCTION ABOUT MY SELF</h4>
+							<h1 class="about_head wow slideInLeft" data-wow-delay="1s">ABOUT</h1>
+							<h4 class="about_subhead wow slideInRight" data-wow-delay="1s">A SMALL INTRODUCTION ABOUT MY SELF</h4>
+							<div class="small_icon wow zoomIn" data-wow-delay="1s">
+								<span></span>
+							</div>
 							<div class="col-md-4">
-								<p class="about_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p class="about_para wow slideInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -73,10 +88,10 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							</div>
 							<div class="col-md-4">
-								<img src="assets/img/preeti.jpg" class="my_image" alt="">
+								<img src="assets/img/preeti.jpg" class="my_image wow slideInDown" alt="">
 							</div>
 							<div class="col-md-4">
-								<p class="about_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								<p class="about_para wow slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -84,202 +99,511 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							</div>
 						</div>
+					</section>
+					<section id="resume">
 						<div class="row resume_bg">
-							<section id="resume">
-								<div class="col-md-12">
-									<h4 class="resume_head">WORK EXPERIENCE</h4>
-									<h1 class="resume_subhead">RESUME</h1>
-									<div class="resume_icon">
-										<i class="fa fa-briefcase"></i>
-										<span></span>
+							<div class="col-md-12">
+								<h4 class="resume_head wow slideInLeft" data-wow-delay="1s">WORK EXPERIENCE</h4>
+								<h1 class="resume_subhead wow slideInRight" data-wow-delay="1s">RESUME</h1>
+								<div class="resume_icon wow zoomIn" data-wow-delay="1s">
+									<i class="fa fa-briefcase"></i>
+									<span></span>
+								</div>
+								<div class="work">
+									<div class="work_line"></div>
+									<div class="row work_wrap">
+										<div class="col-md-2">
+											<div class="work_date wow fadeInUp" data-wow-delay="1s">
+                                                <h4>JAN - JUL</h4>
+                                                <span>2015</span>
+                                            </div>
+										</div>
+										<div class="col-md-10">
+											<div class="work_info wow fadeInUp" data-wow-delay="1s">
+                                                <h3>Exercitation</h3>
+                                                <h4>WEB DEVELOPER</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                            </div>
+										</div>
 									</div>
-									<div class="work">
-										<div class="work_line"></div>
-										<div class="row work_wrap">
-											<div class="col-md-2">
-												<div class="work_date">
-	                                                <h4>JAN - JUL</h4>
-	                                                <span>2015</span>
-	                                            </div>
-											</div>
-											<div class="col-md-10">
-												<div class="work_info">
-	                                                <h3>Exercitation</h3>
-	                                                <h4>WEB DEVELOPER</h4>
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-	                                            </div>
-											</div>
+									<div class="row work_wrap">
+										<div class="col-md-2">
+											<div class="work_date wow fadeInUp" data-wow-delay="1.5s">
+                                                <h4>JAN - JUL</h4>
+                                                <span>2015</span>
+                                            </div>
 										</div>
-										<div class="row work_wrap">
-											<div class="col-md-2">
-												<div class="work_date">
-	                                                <h4>JAN - JUL</h4>
-	                                                <span>2015</span>
-	                                            </div>
-											</div>
-											<div class="col-md-10">
-												<div class="work_info">
-	                                                <h3>Exercitation</h3>
-	                                                <h4>WEB DEVELOPER</h4>
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										<div class="col-md-10">
+											<div class="work_info wow fadeInUp" data-wow-delay="1.5s">
+                                                <h3>Exercitation</h3>
+                                                <h4>WEB DEVELOPER</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-	                                            </div>
-											</div>
+                                            </div>
 										</div>
-										<div class="row work_wrap">
-											<div class="col-md-2">
-												<button type="button" class="btn btn-primary download_resume">Download Resume</button>
-											</div>
-											<div class="col-md-10">
-												<!-- <div class="work_info">
-	                                            </div> -->
-											</div>
+									</div>
+									<div class="row work_wrap">
+										<div class="col-md-2">
+											<button type="button" class="btn btn-primary download_resume wow fadeInUp" data-wow-delay="1s">Download Resume</button>
+										</div>
+										<div class="col-md-10">
+											<!-- <div class="work_info">
+                                            </div> -->
 										</div>
 									</div>
 								</div>
-							</section>
+							</div>
 						</div>
+					</section>
+					<section id="portfolio">
 						<div class="row portfolio_bg">
-							<section id="portfolio">
-								<div class="col-md-12">
-									<h1 class="portfolio_head">WORK</h1>
-									<h4 class="portfolio_subhead">PORTFOLIO</h4>
-
-									<div class="col-sm-4 isotopeSelector art">
-									    <article class="">
-									        <figure>
-									            <img src="images/portfolio/22.jpg" alt="">
-									            <div class="overlay-background">
-									                <div class="inner"></div>
-									            </div>
-									            <div class="overlay">
-									                <div class="inner-overlay">
-									                    <div class="inner-overlay-content with-icons">
-									                        <a title="First Image" class="fancybox-pop" rel="portfolio-22" href="images/portfolio/22.jpg"><i class="fa fa-search"></i></a>
-									                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="images/portfolio/17.jpg" rel="portfolio-22"></a>
-									                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="images/portfolio/18.jpg" rel="portfolio-22"></a>
-									                        <a href="#"><i class="fa fa-link"></i></a>
-									                    </div>
-									                </div>
-									            </div>
-									        </figure>
-									        <div class="article-title"><a href="#">Nipperkin run</a></div>
-									    </article>
-									</div>
-									<div class="filter-container isotopeFilters2">
-									    <ul class="list-inline filter">
-									        <li class="active"><a href="#" data-filter="*">All </a><span>/</span></li>
-									        <li><a href="#" data-filter=".illustrations">Illustrations</a><span>/</span></li>
-									        <li><a href="#" data-filter=".photography">Photography</a><span>/</span></li>
-									        <li><a href="#" data-filter=".websites">Websites</a><span>/</span></li>
-									        <li><a href="#" data-filter=".art">Art</a></li>
-									    </ul>
-									</div>
-									<a title="First Image" class="fancybox-pop" rel="portfolio-21" href="images/portfolio/21.jpg"><i class="fa fa-search"></i></a>
-									<a title="Second Image"  class="fancybox-pop" style="display: none" href="images/portfolio/17.jpg" rel="portfolio-21"></a>
-									<a title="Third Image"  class="fancybox-pop" style="display: none" href="images/portfolio/18.jpg" rel="portfolio-21"></a>
+							<div class="col-md-12">
+								<h1 class="portfolio_head wow slideInLeft" data-wow-delay="1s">WORK</h1>
+								<h4 class="portfolio_subhead wow slideInRight" data-wow-delay="1s">PORTFOLIO</h4>
+								<div class="small_icon wow zoomIn" data-wow-delay="1s">
+									<span></span>
 								</div>
-							</section>
+								<section class="filter-section">
+					                <div class="filter-container isotopeFilters">
+					                    <ul class="list-inline filter">
+					                        <li class="active"><a href="#" data-filter="*">All </a></li>
+					                        <li><a href="#" data-filter=".illustrations">Landing Page</a></li>
+					                        <li><a href="#" data-filter=".websites">Websites</a></li>
+					                        <li><a href="#" data-filter=".photography">Design</a></li>
+					                        <li><a href="#" data-filter=".art">Demo Projects</a></li>
+					                    </ul>
+					                </div>
+								</section>
+
+								<section class="portfolio-section port-col">
+							        <div class="row">
+							            <div class="isotopeContainer">
+								            <div class="col-sm-3 isotopeSelector art">
+								                <article class="">
+								                    <figure>
+								                        <img src="assets/img/portfolio/1.jpg" alt="">
+								                        <div class="overlay-background">
+								                            <div class="inner"></div>
+								                        </div>
+								                        <div class="overlay">
+								                            <div class="inner-overlay">
+								                                <div class="inner-overlay-content with-icons">
+								                                    <a title="First Image" class="fancybox-pop" rel="portfolio-1" href="assets/img/portfolio/1.jpg"><i class="fa fa-search"></i></a>
+								                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-1"></a>
+								                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-1"></a>
+								                                    <a href="#"><i class="fa fa-link"></i></a>
+								                                </div>
+								                            </div>
+								                        </div>
+								                    </figure>
+								                    <div class="article-title"><a href="#">Nipperkin run</a></div>
+								                </article>
+								            </div>
+								            
+								            <div class="col-sm-3 isotopeSelector illustrations">
+								                <article class="">
+								                    <figure>
+								                        <img src="assets/img/portfolio/2.jpg" alt="">
+								                        <div class="overlay-background">
+								                            <div class="inner"></div>
+								                        </div>
+								                        <div class="overlay">
+								                            <div class="inner-overlay">
+								                                <div class="inner-overlay-content with-icons">
+								                                    <a title="First Image" class="fancybox-pop" rel="portfolio-2" href="assets/img/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+								                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-2"></a>
+								                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-2"></a>
+								                                    <a href="#"><i class="fa fa-link"></i></a>
+								                                </div>
+								                            </div>
+								                        </div>
+								                    </figure>
+								                    <div class="article-title"><a href="#">Ballast chase</a></div>
+								                </article>
+								            </div>
+								            
+								            <div class="col-sm-3 isotopeSelector websites">
+								                <article class="">
+								                    <figure>
+								                        <img src="assets/img/portfolio/3.jpg" alt="">
+								                        <div class="overlay-background">
+								                            <div class="inner"></div>
+								                        </div>
+								                        <div class="overlay">
+								                            <div class="inner-overlay">
+								                                <div class="inner-overlay-content with-icons">
+								                                    <a title="First Image" class="fancybox-pop" rel="portfolio-3" href="assets/img/portfolio/3.jpg"><i class="fa fa-search"></i></a>
+								                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-3"></a>
+								                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-3"></a>
+								                                    <a href="#"><i class="fa fa-link"></i></a>
+								                                </div>
+								                            </div>
+								                        </div>
+								                    </figure>
+								                    <div class="article-title"><a href="#">The palms</a></div>
+								                </article>
+								            </div>
+								            
+								            <div class="col-sm-3 isotopeSelector photography">
+								                <article class="">
+								                    <figure>
+								                        <img src="assets/img/portfolio/4.jpg" alt="">
+								                        <div class="overlay-background">
+								                            <div class="inner"></div>
+								                        </div>
+								                        <div class="overlay">
+								                            <div class="inner-overlay">
+								                                <div class="inner-overlay-content with-icons">
+								                                    <a title="First Image" class="fancybox-pop" rel="portfolio-4" href="assets/img/portfolio/4.jpg"><i class="fa fa-search"></i></a>
+								                                    <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-4"></a>
+								                                    <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-4"></a>
+								                                    <a href="#"><i class="fa fa-link"></i></a>
+								                                </div>
+								                            </div>
+								                        </div>
+								                    </figure>
+								                    <div class="article-title"><a href="#">Nipperkin run</a></div>
+								                </article>
+								            </div>
+								            <div class="col-sm-3 isotopeSelector photography">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/4.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-4" href="assets/img/portfolio/4.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-4"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-4"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Nipperkin run</a></div>
+											    </article>
+											</div>
+											<div class="col-sm-3 isotopeSelector photography">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/5.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-5" href="assets/img/portfolio/5.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-5"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-5"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Ballast chase</a></div>
+											    </article>
+											</div>
+																					            
+											<div class="col-sm-3 isotopeSelector art">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/6.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-6" href="assets/img/portfolio/6.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-6"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-6"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">The palms</a></div>
+											    </article>
+											</div>
+
+											<div class="col-sm-3 isotopeSelector photography">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/7.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-7" href="assets/img/portfolio/7.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-7"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-7"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Nipperkin run</a></div>
+											    </article>
+											</div>
+
+											<div class="col-sm-3 isotopeSelector photography websites">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/8.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-8" href="assets/img/portfolio/8.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-8"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-8"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Ballast chase</a></div>
+											    </article>
+											</div>
+
+											<div class="col-sm-3 isotopeSelector photography art">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/9.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-9" href="assets/img/portfolio/9.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-9"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-9"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">The palms</a></div>
+											    </article>
+											</div>
+
+											<div class="col-sm-3 isotopeSelector illustrations">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/10.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-10" href="assets/img/portfolio/10.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-10"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="images/portfolio/18.jpg" rel="portfolio-10"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Nipperkin run</a></div>
+											    </article>
+											</div>
+
+											<div class="col-sm-3 isotopeSelector art websites">
+											    <article class="">
+											        <figure>
+											            <img src="assets/img/portfolio/11.jpg" alt="">
+											            <div class="overlay-background">
+											                <div class="inner"></div>
+											            </div>
+											            <div class="overlay">
+											                <div class="inner-overlay">
+											                    <div class="inner-overlay-content with-icons">
+											                        <a title="First Image" class="fancybox-pop" rel="portfolio-11" href="assets/img/portfolio/11.jpg"><i class="fa fa-search"></i></a>
+											                        <a title="Second Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/17.jpg" rel="portfolio-11"></a>
+											                        <a title="Third Image"  class="fancybox-pop" style="display: none" href="assets/img/portfolio/18.jpg" rel="portfolio-11"></a>
+											                        <a href="#"><i class="fa fa-link"></i></a>
+											                    </div>
+											                </div>
+											            </div>
+											        </figure>
+											        <div class="article-title"><a href="#">Ballast chase</a></div>
+											    </article>
+											</div>
+							        	</div>
+							        </div>
+								</section>
+							</div>
 						</div>
+					</section>
+					<section id="skills">
 						<div class="row skills_bg">
-							<section id="skills">
-								<div class="col-md-12">
-									<h4 class="skills_head">WHAT I DO</h4>
-									<h1 class="skills_subhead">SKILLS</h1>
-									<div class="resume_icon">
-										<i class="fa fa-cogs"></i>
-										<span></span>
+							<div class="col-md-12">
+								<h4 class="skills_head wow slideInLeft" data-wow-delay="1s">WHAT I DO</h4>
+								<h1 class="skills_subhead wow slideInRight" data-wow-delay="1s">SKILLS</h1>
+								<div class="resume_icon wow zoomIn" data-wow-delay="1s">
+									<i class="fa fa-cogs"></i>
+									<span></span>
+								</div>
+								<div class="row">
+									<div class="col-md-4 wow slideInUp" data-wow-delay="1s">
+										<div class="portfolio_icon">
+											<i class="fa fa-camera"></i>
+											<span></span>
+										</div>
+										<div class="services_box_info">
+		                                    <span class="services_decor"></span>
+		                                    <h4>Photo</h4>
+                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
+                                    		<ul>
+                                                <li>Concept</li>
+
+                                                <li>3D Modeling</li>
+
+                                                <li>Research</li>
+
+                                                <li>Design</li>
+                                            </ul>
+                                    		<div class="clear"></div>
+                                        </div>
+									</div>
+									<div class="col-md-4 wow slideInUp" data-wow-delay="1.5s">
+										<div class="portfolio_icon">
+											<i class="fa fa-android"></i>
+											<span></span>
+										</div>
+										<div class="services_box_info">
+		                                    <span class="services_decor"></span>
+		                                    <h4>Photo</h4>
+                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
+                                    		<ul>
+                                                <li>Concept</li>
+
+                                                <li>3D Modeling</li>
+
+                                                <li>Research</li>
+
+                                                <li>Design</li>
+                                            </ul>
+                                    		<div class="clear"></div>
+                                        </div>
+									</div>
+									<div class="col-md-4 wow slideInUp" data-wow-delay="1.8s">
+										<div class="portfolio_icon">
+											<i class="fa fa-rocket"></i>
+											<span></span>
+										</div>
+										<div class="services_box_info">
+		                                    <span class="services_decor"></span>
+		                                    <h4>Photo</h4>
+                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
+                                    		<ul>
+                                                <li>Concept</li>
+
+                                                <li>3D Modeling</li>
+
+                                                <li>Research</li>
+
+                                                <li>Design</li>
+                                            </ul>
+                                    		<div class="clear"></div>
+                                        </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="contact">
+						<div class="row contact_bg ">
+							<div class="col-md-12">
+								<h1 class="contact_head wow slideInLeft" data-wow-delay="1s">CONTACT</h1>
+								<h4 class="contact_subhead wow slideInRight" data-wow-delay="1s">GET IN TOUCH</h4>
+								<div class="small_icon wow zoomIn" data-wow-delay="1s">
+									<span></span>
+								</div>
+								<div class="contact_wrap wow zoomIn" data-wow-delay="1.5s">
+									<div class="row">
+										<div class="col-md-2">
+											<i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i>
+										</div>
+										<div class="col-md-10">
+											<p>#59/5 Air Force Wind Tunnel Road, Murugeshpalya, Bangalore - 560017</p>
+										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-4">
-											<div class="portfolio_icon">
-												<i class="fa fa-camera"></i>
-												<span></span>
-											</div>
-											<div class="services_box_info">
-			                                    <span class="services_decor"></span>
-			                                    <h4>Photo</h4>
-                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
-                                        		<ul>
-                                                    <li>Concept</li>
-
-                                                    <li>3D Modeling</li>
-
-                                                    <li>Research</li>
-
-                                                    <li>Design</li>
-                                                </ul>
-                                        		<div class="clear"></div>
-                                            </div>
+										<div class="col-md-2">
+											<i class="fa fa-google-plus" aria-hidden="true" style="font-size: 20px;"></i>
 										</div>
-										<div class="col-md-4">
-											<div class="portfolio_icon">
-												<i class="fa fa-android"></i>
-												<span></span>
-											</div>
-											<div class="services_box_info">
-			                                    <span class="services_decor"></span>
-			                                    <h4>Photo</h4>
-                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
-                                        		<ul>
-                                                    <li>Concept</li>
-
-                                                    <li>3D Modeling</li>
-
-                                                    <li>Research</li>
-
-                                                    <li>Design</li>
-                                                </ul>
-                                        		<div class="clear"></div>
-                                            </div>
+										<div class="col-md-10">
+											<p>Mail ID: preeti2904.singh@gmail.com</p>
 										</div>
-										<div class="col-md-4">
-											<div class="portfolio_icon">
-												<i class="fa fa-rocket"></i>
-												<span></span>
-											</div>
-											<div class="services_box_info">
-			                                    <span class="services_decor"></span>
-			                                    <h4>Photo</h4>
-                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>                                                                                 <h5>WHAT i OFFER</h5>
-                                        		<ul>
-                                                    <li>Concept</li>
-
-                                                    <li>3D Modeling</li>
-
-                                                    <li>Research</li>
-
-                                                    <li>Design</li>
-                                                </ul>
-                                        		<div class="clear"></div>
-                                            </div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">
+											<i class="fa fa-github" aria-hidden="true" style="font-size: 20px;"></i>
+										</div>
+										<div class="col-md-10">
+											<p>Username: preeti2904singh &nbsp;Link: <a href="https://github.com/preeti2904singh" target="_blank"> https://github.com/preeti2904singh</p></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-2">
+											<i class="fa fa-linkedin" aria-hidden="true" style="font-size: 20px;"></i>
+										</div>
+										<div class="col-md-10">
+											<p>Link: <a href="https://in.linkedin.com/in/preeti-singh-80b759aa" target="_blank">https://in.linkedin.com/in/preeti-singh-80b759aa</a></p>
 										</div>
 									</div>
 								</div>
-							</section>
+							</div>
+							<img src="assets/img/skyline.png" class="skyline_bg" alt="">
 						</div>
+					</section>
+				</div>
+			</div>
+			<div class="row" style="position: relative;z-index: 10;background: #170900;">
+				<section class="footer">
+					<div class="col-md-12">
+						<p>Copyright © 2016. Designed and Developed by Preeti Singh.</p>
 					</div>
 				</section>
 			</div>
-
 		</div>
 
 		<!-- jQuery -->
-		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="assets/js/jquery-1.11.3.min.js"></script>
+		<!-- <script src="//code.jquery.com/jquery.js"></script> -->
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+    	<script type="text/javascript" src="assets/js/jquery.typedtext.js"></script>
  		<script src="assets/js/style.js"></script>
+ 		<script src="assets/js/jquery.easing.min.js"></script>
+ 		<!-- <script src="assets/js/wow.min.js"></script> -->
+ 		<script src="assets/js/scrolling-nav.js"></script>
+ 		<script src="assets/js/isotope.min.js"></script>
+		<script src="assets/js/jquery.fancybox.pack.js"></script>
 	</body>
 </html>
