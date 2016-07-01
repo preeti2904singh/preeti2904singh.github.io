@@ -632,22 +632,37 @@ h4.portfolio_subhead:after {
     padding:20px
 }
 
+ul.list-inline.filter li {
+    width: 15%;
+    border: 1px solid #170900;
+    cursor: pointer;
+}
 
+ul.list-inline.filter li:hover {
+    color:#B46E3C !important;
+    background-color: #170900 !important;
+    cursor: pointer;
+}
 
 ul.filter > li > a {
-    color:#1abc9c;
+    color:#170900;
     font-size:20px;
     line-height:40px;
 }
 
 ul.filter > li > a:hover,ul.filter > li > a:focus {
     text-decoration:none;
-    color:#B46E3C;
+    color:#170900 !important;
     outline:none;
 }
 
+ul.filter > li.active {
+    color:#B46E3C !important;
+    background-color: #170900 !important;
+}
+
 ul.filter > li.active a {
-    color:#B46E3C;
+    color:#B46E3C !important;
     background-color: #170900 !important;
 }
 
@@ -1018,7 +1033,7 @@ section.footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: #080808;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -1036,4 +1051,48 @@ section.footer {
 .hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+/* Sweep To Bottom */
+.hvr-sweep-to-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #b46e3c;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
+  color: white;
+}
+.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
