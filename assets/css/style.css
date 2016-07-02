@@ -717,7 +717,8 @@ ul.filter > li span {
 }
 
 .portfolio-section .article-title a {
-    color:#aaa
+    color: #170900;
+    text-decoration: none;
 }
 
 
