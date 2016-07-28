@@ -299,7 +299,7 @@ h1.resume_subhead {
     width: 80px;
     height: 80px;
     background-color: #b46e3c;
-    /* left: 0; */
+    left: 0; 
     bottom: -46%;
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -649,6 +649,7 @@ ul.filter > li > a {
     color:#170900;
     font-size:20px;
     line-height:40px;
+    /*padding: 2%;*/
 }
 
 ul.filter > li > a:hover,ul.filter > li > a:focus {
@@ -1097,4 +1098,62 @@ section.footer {
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+}
+
+
+@media screen and (max-width:560px) {
+	.sidebar_bg {
+	    height: auto;
+	}
+
+	ul.list-inline.filter li {
+	    width: 100%;
+	}
+
+	.contact_wrap {
+	    width: 100%;
+	}
+
+	section.footer {
+	    padding: 1%;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1170px) {
+	.work_line {
+	    height: 82%;
+	    top: 16%;
+	    left: 8.8%;
+	}
+
+	.work_date:before {
+	    left: -31px;
+	}
+
+	.work_date h4 {
+	    top: 28px;
+	    font-size: 12px;
+	    right: 14px;
+	}
+
+	.work_date span {
+	    top: 30px;
+	    left: -13px;
+	}
+
+	ul.list-inline.filter li {
+	    width: 22%;
+	}
+}
+
+@media screen and (min-width:1172px) and (max-width:1230px) {
+	.work_line {
+		height: 77%;
+	    top: 20%;
+	    left: 11%;
+	}
+
+	ul.list-inline.filter li {
+	    width: 17%;
+	}
 }
