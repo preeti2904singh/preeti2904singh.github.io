@@ -1,6 +1,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
+    position: relative;
 }
 
 .intro_bg {
@@ -391,7 +392,7 @@ h1.resume_subhead {
 }
 .work_info:after {
     right: 100%;
-    top: 110px;
+    top: 70px;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -426,6 +427,8 @@ button.btn.btn-primary.download_resume {
     border: 0;
     border-radius: 0;
     float: right;
+    position: relative;
+    top: 50px;
 }
 
 .bg_dark {
