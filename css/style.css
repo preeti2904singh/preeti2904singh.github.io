@@ -853,7 +853,7 @@ a.navbar-brand img {
 .projectTitle h1 {
   font-weight: bold;
   color: #474747;
-  font-size: 7.5vw;
+  font-size: 100px;
   position: relative;
   z-index: 0;
 }
