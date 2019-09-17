@@ -932,3 +932,11 @@ a.navbar-brand img {
   font-weight: bold;
   margin-bottom: 3rem;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 786px) {
+  .projectTitle h1 {
+    font-size: 60px;
+}
+}
