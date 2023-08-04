@@ -1,34 +1,35 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Thomson
-VERSION:	1.0
+
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Muli&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.166667px;
   line-height: 1.7em;
-  color: #818385;
+  color: #000;
 }
 
 p {
-  color: #818385;
+  color: #000000;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Muli", sans-serif;
-  color: #000;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -112,7 +113,7 @@ h6, .h6 {
 
 .btn-white {
   background: #fff;
-  color: #000;
+  color: #000000;
   border-color: #fff;
 }
 
@@ -397,7 +398,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   top: 0px;
   z-index: 2;
   opacity: 0;
-  display: block;
+  display: inline-block;
   transition: all .6s ease;
   overflow: hidden;
 }
@@ -556,7 +557,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 
 .about-list li {
   text-transform: capitalize;
-  color: #000;
+  color: #000000;
 }
 
 .progress {
@@ -619,7 +620,7 @@ textarea.form-control {
 }
 
 .text-black {
-  color: #000;
+  color: #000000;
 }
 
 .contact-title h2 {
@@ -886,7 +887,7 @@ a.navbar-brand img {
 }
 
 .projectBannerThree {
-  background: linear-gradient(#363636, #353535);
+  background: linear-gradient(#363636, #000000);
 }
 
 
@@ -920,6 +921,10 @@ a.navbar-brand img {
   border-left: 5px solid #4CAF50;
 }
 
+.infoCardBlueGrey {
+  border-left: 5px solid #607D8B;
+}
+
 .poBackground {
   background: #ECEFF1;
 }
@@ -940,3 +945,94 @@ a.navbar-brand img {
     font-size: 60px;
 }
 }
+
+
+/* Custom css */
+
+.marginSpace {					
+  margin: 24px 0;
+}
+
+.toolsUsedImage {
+  width: 60%;
+  margin: 16px 0;
+}
+
+ul {
+  padding: 0 15px;
+} 
+
+.analysisImage {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.greyColor {
+  color: #6e6e6e;
+}
+
+.footer{
+  color: #fff;
+}
+
+.taskPerformedList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.taskPerformedList li {
+  margin: 8px 0;
+  width: 100%;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+ul.taskPerformedList li i {
+  margin-right: 8px;
+}
+
+/**********Compare two image*****************/
+/* * {box-sizing: border-box;} */
+
+.img-comp-container {
+  position: relative;
+  width: 100%;
+  height: 912px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+  /* width: 100%;
+  margin: 0 auto; */
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #3F51B5;
+  /* opacity: 0.7; */
+  border-radius: 50%;
+}
+
+.imageBorder {
+  border-right: 2px solid #3F51B5;
+}
+
+/* Filter gallery css*/
+
+
