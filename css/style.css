@@ -92,7 +92,7 @@ h6, .h6 {
 }
 
 .btn-main {
-  background: #651FFF;
+  background: #3F51B5;
   color: #fff;
 }
 
@@ -107,7 +107,7 @@ h6, .h6 {
 }
 
 .btn-black:hover {
-  background: #651FFF;
+  background: #3F51B5;
   color: #fff;
 }
 
@@ -128,13 +128,13 @@ a {
 }
 
 a:hover {
-  color: #651FFF;
+  color: #3F51B5;
   text-decoration: none;
   outline: none;
 }
 
 .bg-primary {
-  background: #651FFF !important;
+  background:  #3F51B5 !important;
 }
 
 .bg-secondary {
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .text-color {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 .page-title h1 {
@@ -162,7 +162,7 @@ a:hover {
   width: 40px;
   height: 2px;
   margin-left: -25px;
-  background: #651FFF;
+  background:  #3F51B5;
 }
 
 @media (max-width: 575px) {
@@ -230,7 +230,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -362,7 +362,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .portfolio .btn-group .btn:hover {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 .portfolio .btn-group:not(:first-child) > .btn, .portfolio .btn-group > .btn:not(:first-child) {
@@ -371,7 +371,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .portfolio .btn.active {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 .inner-box {
@@ -612,7 +612,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #651FFF;
+  border-color:  #3F51B5;
 }
 
 textarea.form-control {
@@ -636,7 +636,7 @@ textarea.form-control {
   width: 40px;
   height: 2px;
   margin-left: -25px;
-  background: #651FFF;
+  background:  #3F51B5;
 }
 
 .letter-spacing {
@@ -667,7 +667,7 @@ textarea.form-control {
 }
 
 .post .post-content a:hover h4 {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 .pagination {
@@ -685,12 +685,12 @@ textarea.form-control {
 }
 
 .pagination li a:hover {
-  background: #651FFF;
+  background:  #3F51B5;
   color: #fff;
 }
 
 .pagination li.active a {
-  background: #651FFF;
+  background:  #3F51B5;
   color: #fff;
 }
 
@@ -797,7 +797,7 @@ textarea.form-control {
 }
 
 .footer-widget a:hover {
-  color: #651FFF;
+  color:  #3F51B5;
 }
 
 
@@ -1011,7 +1011,7 @@ img.guideImg, img.fullWidthImg {
   width: 100%;
 }
 img.fullWidthImg, img.progressivDisclosureImg   {
-  border: 1px dashed 3F51B5;
+  border: 1px dashed #3F51B5;
   padding: 10px;
 }
 
