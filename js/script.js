@@ -145,5 +145,5 @@ function initComparisons() {
 
 
 
-  /********Filter gallery********/
+  /********Back to top********/
  
