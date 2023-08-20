@@ -1010,9 +1010,10 @@ ul.taskPerformedList li i {
 img.guideImg, img.fullWidthImg {
   width: 100%;
 }
+
 img.fullWidthImg, img.progressivDisclosureImg   {
   border: 1px dashed #3F51B5;
-  padding: 10px;
+  padding: 16px;
 }
 
 img.progressivDisclosureImg {
@@ -1031,6 +1032,23 @@ img.progressivDisclosureImg {
   position: relative;
   width: 100%;
   height: 912px; /*should be the same height as the images*/
+}
+
+.customImgContainer {
+  height: 600px !important;
+}
+
+
+.customImgContainer2 {
+  height: 870px !important;
+}
+
+.customImgContainer3 {
+  height: 820px !important;
+}
+
+.customImgContainer4 {
+  height: 650px !important;
 }
 
 .img-comp-img {
