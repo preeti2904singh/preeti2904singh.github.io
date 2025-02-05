@@ -1107,3 +1107,8 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+.bigFont{
+  font-size: 24px;
+  font-weight: bold;
+}
